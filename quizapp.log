@@ -1,0 +1,19 @@
+2025-11-03 09:48:38 [main] INFO com.quizapp.Controller.MainController - Quiz Application started.
+2025-11-03 09:48:47 [main] INFO com.quizapp.Controller.MainController - Login attempt for username: Riya
+2025-11-03 09:48:47 [main] INFO com.quizapp.service.AuthService - User 'Riya' attempting login
+2025-11-03 09:48:47 [main] INFO com.quizapp.util.DBUtil - Database connected successfully!
+2025-11-03 09:48:47 [main] INFO com.quizapp.dao.UserDao - Login successful for 'Riya'
+2025-11-03 09:48:47 [main] INFO com.quizapp.service.AuthService - Login successful for user 'Riya'
+2025-11-03 09:48:47 [main] INFO com.quizapp.Controller.MainController - User 'Riya' logged in successfully.
+2025-11-03 09:48:47 [main] INFO com.quizapp.Controller.UserController - User 'Riya' logged in.
+2025-11-03 09:48:50 [main] INFO com.quizapp.Controller.UserController - User viewing all quizzes.
+2025-11-03 09:48:50 [main] INFO com.quizapp.util.DBUtil - Database connected successfully!
+2025-11-03 09:48:50 [main] INFO com.quizapp.dao.QuizDao - Fetched 14 quizzes from database.
+2025-11-03 09:49:05 [main] WARN com.quizapp.Controller.UserController - Invalid choice entered by user 'Riya': 7
+2025-11-03 09:49:11 [main] INFO com.quizapp.Controller.UserController - User 'Riya' attempting quiz ID: 7
+2025-11-03 09:49:11 [main] INFO com.quizapp.service.QuizService - Starting quiz for user ID 7 and quiz ID 7
+2025-11-03 09:49:11 [main] INFO com.quizapp.util.DBUtil - Database connected successfully!
+2025-11-03 09:49:11 [main] INFO com.quizapp.dao.QuestionDao - Fetched 5 questions for quiz ID 7
+2025-11-03 09:49:33 [main] INFO com.quizapp.service.QuizService - User ID 7 completed quiz ID 7 with score 2
+2025-11-03 09:49:33 [main] INFO com.quizapp.util.DBUtil - Database connected successfully!
+2025-11-03 09:49:33 [main] INFO com.quizapp.dao.ResultDao - Result saved for user 7 in quiz 7.
